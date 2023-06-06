@@ -1,0 +1,29 @@
+body {
+  height: 100%;
+}
+.app {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  background-image: url("https://pimcdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad/images/IPADMINI2021WIFI_pink_1?1684218757?g=0");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+}
+
+@media only screen and (max-width: 768px) {
+  .img {
+    background-image: url("https://pimcdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad/images/IPHONE14PROMAX_silver_1?1683980123?g=0");
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .img {
+    background-image: url("https://pimcdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad/images/S200730143_1?1684223864?g=0");
+  }
+}
